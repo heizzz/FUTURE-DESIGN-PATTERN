@@ -79,6 +79,7 @@ public class FacadeApplication {
             return new AddressServiceImplMongo();
         }
 
+        // kalo mau pilih salah satu bisa pake (@Qualifier("postgre") AddressService addressService) {
         @Bean
         public AddressController addressController(AddressService addressService) {
             AddressController controller = new AddressController();
