@@ -41,5 +41,8 @@ public class BuilderApplication {
                 .tanggalLahir(new Date())
                 .hobi(Arrays.asList("Game","Coding"))
                 .build();
+
+        System.out.println(mahasiswa1);
+        System.out.println(mahasiswa2);
     }
 }
